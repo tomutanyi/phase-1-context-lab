@@ -21,3 +21,5 @@ const allWagesFor = function () {
     return payable
 }
 
+function createEmployeeRecords(arrayOfArrays) {
+    return arrayOfArrays.map(createEmployeeRecord);}
